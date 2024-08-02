@@ -19,18 +19,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 use mkcert to be able to create certificates
 
 ```bash
-    # Windows
-    choco install mkcert 
-    # Mac
-    brew install mkcert
+# Windows
+choco install mkcert 
+# Mac
+brew install mkcert
 ```
 
 then run the app (development)
 
 ```bash
-    bun dev --experimental-https
-    # or
-    npm run dev --experimental-https
+bun dev --experimental-https
+# or
+npm run dev --experimental-https
 ```
 
 you can find your PC/Host's Local IPV4 Address by using:
