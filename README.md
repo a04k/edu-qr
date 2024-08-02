@@ -2,8 +2,7 @@
 
 ---
 
-(for PC):
-First, run the development server: 
+(for PC): run the development server: 
 
 ```bash
 npm run dev
@@ -15,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-Note: to use on a mobile device you need to have https otherwise you will not be able to use the camera
+ To use the app on a mobile device you need to have https otherwise you will not be able to use the camera
 
 use mkcert to be able to create certificates
 
@@ -33,3 +32,10 @@ then run the app (development)
     # or
     npm run dev --experimental-https
 ```
+
+you can find your PC/Host's Local IPV4 Address by using:
+```bash
+ipconfig
+```
+
+Open [https://hostAddress:3000] with your browser to see the result
