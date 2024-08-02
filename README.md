@@ -38,4 +38,4 @@ you can find your PC/Host's Local IPV4 Address by using:
 ipconfig
 ```
 
-Open [https://hostAddress:3000] with your browser to see the result
+Open [https://hostAddress:3000](http://localhost:3000) with your browser to see the result
